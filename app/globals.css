@@ -1,26 +1,42 @@
 @import "tailwindcss";
-
+@plugin "daisyui";
+@plugin "daisyui/theme"{
+  themes: light;
+}
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primary brand color - vivid blue */
+  --color-primary: #007BFF;
+
+  /* Secondary accent - soft teal/aqua */
+  --color-secondary: #00B8D9;
+  --color-tertiary: #0F172A;
+
+  /* Backgrounds and surfaces */
+  --color-background: #FFFFFF;
+  --color-surface: #F8FAFC;
+
+  /* Text colors */
+  --color-text-dark: #1E293B;
+  --color-text-light: #64748B;
+
+  /* Borders and dividers */
+  --color-border: #E2E8F0;
+
+  /* Hover / Active states */
+  --color-primary-hover: #0066CC;
+  --color-secondary-hover: #009FBF;
+
+  /* Optional gradient for hero banners */
+  --gradient-hero: linear-gradient(135deg, #007BFF 0%, #00B8D9 100%);
+
+  /* Default body colors */
+  --bg-color: var(--color-background);
+  --text-color: var(--color-text-dark);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
