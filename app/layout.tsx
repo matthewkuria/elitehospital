@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import TopBar from "./components/TopBar";
 import "./globals.css";
 
 
@@ -20,8 +22,10 @@ export default function RootLayout({
       <body
         className={``}
       >
+        <TopBar />
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

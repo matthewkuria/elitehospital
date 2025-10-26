@@ -12,7 +12,7 @@ const ContactPage = () => {
         }}
       >
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,123,255,0.85)] to-[rgba(0,184,217,0.85)]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,123,255,0.6)] to-[rgba(0,184,217,0.5)]" />
 
         {/* Banner Text */}
         <div className="relative z-10 text-center px-6">
@@ -88,29 +88,29 @@ const ContactPage = () => {
               <h3 className="text-2xl font-bold text-[var(--color-primary)] mb-2">
                 Visit Our Office
               </h3>
-              <p>123 Health Street, Wellness City, Country</p>
+              <p>6220 S ORANGE BLOSSOM TRL STE 140 Orlando, FL, United States, Florida 32809</p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold text-[var(--color-primary)] mb-2">
                 Call Us
               </h3>
-              <p>+1 (800) 123-4567</p>
+              <p>+1 321-960-4980</p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold text-[var(--color-primary)] mb-2">
                 Email Us
               </h3>
-              <p>support@medkitcare.com</p>
+              <p>info@elitecompletecarellc.com</p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold text-[var(--color-primary)] mb-2">
                 Working Hours
               </h3>
-              <p>Mon – Fri: 8:00 AM – 6:00 PM</p>
-              <p>Sat – Sun: 9:00 AM – 3:00 PM</p>
+              <p>Mon – Fri: 11:00 AM – 6:00 PM</p>
+              <p>Saturday     : 9:00 AM –  2:00 PM</p>
             </div>
           </div>         
         </div>
@@ -118,8 +118,8 @@ const ContactPage = () => {
            {/* Embedded Google Map */}
             <div className="w-full h-64 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                title="MedKit Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.932772340479!2d-74.00601528459346!3d40.71277597933113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a31633b0d4d%3A0x8a74c4b04f5154e7!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1689899987765!5m2!1sen!2s"
+                title="Elite Complete Care LLC Office Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.437432415659!2d-81.39978662583879!3d28.46637029160925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77d9591f97a79%3A0x815ec85f5646914d!2sElite%20Complete%20Care%20LLC!5e0!3m2!1sen!2snl!4v1761508175649!5m2!1sen!2snl"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
